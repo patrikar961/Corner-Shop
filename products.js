@@ -59,7 +59,7 @@ const PRODUCTS = [
     price: 50,
     featured: 3,
     poster: "assets/img/moussec.png",
-    cover: "assets/img/moussepc.png",              /* vignette du catalogue : format portrait 3/4 (facultatif) */
+    cover: "assets/img/moussec.png",              /* vignette du catalogue : format portrait 3/4 (facultatif) */
     desc: "Très bon produit cultivé dans les montagnes du Rif, sa qualité et son prix réunissent un bon compromis 🤝✅",
     media: [
         {
@@ -70,7 +70,7 @@ const PRODUCTS = [
       {
         type: "video",
         src: "assets/video/moussev.mp4",
-        poster: "assets/img/moussep-carte.PNG",
+        poster: "assets/img/moussepc.png",
         alt: "Vidéo du produit"
       }
 
