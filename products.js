@@ -70,7 +70,7 @@ const PRODUCTS = [
       {
         type: "video",
         src: "assets/video/moussev.mp4",
-        poster: "assets/img/moussec.jpg",
+        poster: "assets/img/moussep.jpg",
         alt: "Vidéo du produit"
       }
 
