@@ -58,15 +58,10 @@ const PRODUCTS = [
     category: "🧽 Mousse",
     price: 50,
     featured: 3,
-    poster: "assets/img/moussec.jpg",
-    cover: "assets/img/moussec.jpg",              /* vignette du catalogue : format portrait 3/4 (facultatif) */
+    poster: "assets/img/moussef.jpg",
+    cover: "assets/img/moussef.jpg",              /* vignette du catalogue : format portrait 3/4 (facultatif) */
     desc: "Très bon produit cultivé dans les montagnes du Rif, sa qualité et son prix réunissent un bon compromis 🤝✅",
     media: [
-      {
-        type: "image",
-        src: "assets/img/moussec.jpg",
-        alt: "Blue Lobster - photo du produit"
-      },
         {
         type: "image",
         src: "assets/img/moussef.jpg",
