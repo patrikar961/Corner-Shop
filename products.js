@@ -58,8 +58,8 @@ const PRODUCTS = [
     category: "🧽 Mousse",
     price: 50,
     featured: 3,
-    poster: "assets/img/moussec.png",
-    cover: "assets/img/moussec.png",              /* vignette du catalogue : format portrait 3/4 (facultatif) */
+    poster: "assets/img/moussec.webp",
+    cover: "assets/img/moussec.webp",              /* vignette du catalogue : format portrait 3/4 (facultatif) */
     desc: "Très bon produit cultivé dans les montagnes du Rif, sa qualité et son prix réunissent un bon compromis 🤝✅",
     media: [
         {
@@ -70,7 +70,7 @@ const PRODUCTS = [
       {
         type: "video",
         src: "assets/video/moussev.mp4",
-        poster: "assets/img/moussepc.png",
+        poster: "assets/img/moussec.webp",
         alt: "Vidéo du produit"
       }
 
