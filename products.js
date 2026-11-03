@@ -325,7 +325,7 @@ const PRODUCTS = [
          {
         type: "video",
         src: "assets/video/olivecv.mov",
-        poster: "assets/img/occ.png",
+        poster: "assets/img/occ.PNG",
         alt: "Vidéo du produit"
       }
 
