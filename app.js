@@ -756,7 +756,7 @@
           <div class="card review">
             <div class="review-head">
               <strong>${esc(r.name)}</strong>
-              <span class="tag">${" Livraison 🚘 "}</span>
+              <span class="tag">${"Livré(e) 🚘"}</span>
             </div>
             <div class="stars" aria-label="${rating} sur 5">
               ${"★".repeat(rating)}${"☆".repeat(5 - rating)}
