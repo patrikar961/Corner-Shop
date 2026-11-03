@@ -104,7 +104,7 @@ const PRODUCTS = [
 
    {
         type: "video",
-        src: "assets/video/olivev.mp4",
+        src: "assets/video/olivev.mov",
         poster: "assets/img/olive.webp",
         alt: "Vidéo du produit"
    }
@@ -134,7 +134,7 @@ const PRODUCTS = [
 
          {
         type: "video",
-        src: "assets/video/dry.mp4",
+        src: "assets/video/dryv.mov",
         poster: "assets/img/dry.webp",
         alt: "Vidéo du produit"
       }
@@ -162,7 +162,7 @@ const PRODUCTS = [
 
        {
         type: "video",
-        src: "assets/video/vvs.mp4",
+        src: "assets/video/vvsv.mov",
         poster: "assets/img/vvs.webp",
         alt: "Vidéo du produit"
       }
@@ -217,7 +217,7 @@ const PRODUCTS = [
     media: [
          {
         type: "video",
-        src: "assets/video/amnesia.mp4",
+        src: "assets/video/amnesiav.mov",
         poster: "assets/img/amnesia.webp",
         alt: "Vidéo du produit"
       }
