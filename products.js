@@ -395,7 +395,7 @@ const PRODUCTS = [
   {
     id: 13,
     name: "3M 🇳🇱",
-    category: "🤯 Synthése",
+    category: "🤯 Synthèse",
     price: 60,
     featured: 14,
     emoji: "🇳🇱",
@@ -421,7 +421,7 @@ const PRODUCTS = [
   {
     id: 14,
     name: "MD 🇳🇱",
-    category: "🤯 Synthése",
+    category: "🤯 Syntèse",
     price: 60,
     featured: 15,
     emoji: "🇳🇱",
