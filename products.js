@@ -87,6 +87,9 @@ const PRODUCTS = [
     variants: [
       { name: "12G", price: 50 },
       { name: "24G", price: 100 }
+      { name: "36G", price: 140 }
+      { name: "48G", price: 170 }
+      { name: "100G", price: 300 }
     ]
   },
 
@@ -96,15 +99,18 @@ const PRODUCTS = [
   {
     id: 2,
     name: "Olive 3x filtré - Underbranded",
-    category: "Résines",
+    category: "🍫 Choco",
     price: 70,
     featured: 5,
     emoji: "🍫",
-    desc: "Olive 3x filtré curée.",
+    desc: "Olive 3x filtré no farm, prix et qualité au rendez-vous 🤝🇲🇦.",
     media: [],
     variants: [
-      { name: "Classique", price: null },
-      { name: "Grand format", price: null }
+      { name: "12G", price: 50 },
+      { name: "20G", price: 120 }
+      { name: "30G", price: 180 }
+      { name: "50G", price: 240 }
+      { name: "100G", price: 450 }
     ]
   },
 
