@@ -94,7 +94,7 @@ const PRODUCTS = [
 
   {
     id: 2,
-    name: "Olive 3x filtré - Underbranded",
+    name: "Olive 3x filtré 🫒🍫 - Underbranded",
     category: "🍫 Choco",
     price: 70,
     featured: 5,
@@ -139,7 +139,7 @@ const PRODUCTS = [
     price: 80,
     featured: 1,
     emoji: "🤯🇲🇦",
-    desc: "3x filtré de la celebre farm VVS, produit de qualité premium 🤯🍫.",
+    desc: "3x filtré de la celebre farm VVS, produit de qualité premium 🏆.",
     media: [],
     variants: [
       { name: "10G", price: 80 },
@@ -159,7 +159,7 @@ const PRODUCTS = [
     price: 100,
     featured: 6,
     emoji: "🍯",
-    desc: "Plasma Static - White Truffle🇲🇦,  produit premium de haute qualité du vrai miel 🍯🤯.",
+    desc: "Plasma Static - White Truffle,  produit premium de haute qualité du vrai miel 🍯.",
     media: [],
     variants: [
        { name: "5G", price: 100 },
