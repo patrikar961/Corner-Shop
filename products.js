@@ -377,7 +377,7 @@ const PRODUCTS = [
          {
         type: "video",
         src: "assets/video/kv.mov",
-        poster: "assets/img/k.webp",
+        poster: "assets/img/kc.png",
         alt: "Vidéo du produit"
       }
 
@@ -404,7 +404,7 @@ const PRODUCTS = [
      {
         type: "video",
         src: "assets/video/mdv.mov",
-        poster: "assets/img/3m.webp",
+        poster: "assets/img/3mc.png",
         alt: "Vidéo du produit"
      }
 
@@ -430,7 +430,7 @@ const PRODUCTS = [
          {
         type: "video",
         src: "assets/video/mdv.mov",
-        poster: "assets/img/md.webp",
+        poster: "assets/img/mdc.png",
         alt: "Vidéo du produit"
       }
 
