@@ -244,7 +244,7 @@ const PRODUCTS = [
     media: [
          {
         type: "video",
-        src: "assets/video/calis.mp4",
+        src: "assets/video/calisv.mov",
         poster: "assets/img/calis.webp",
         alt: "Vidéo du produit"
       }
@@ -270,7 +270,7 @@ const PRODUCTS = [
     media: [
          {
         type: "video",
-        src: "assets/video/caliu.mp4",
+        src: "assets/video/caliuv.mov",
         poster: "assets/img/caliu.webp",
         alt: "Vidéo du produit"
       }
@@ -298,7 +298,7 @@ const PRODUCTS = [
     media: [
          {
         type: "video",
-        src: "assets/video/ecaillev",
+        src: "assets/video/ecaillev.mov",
         poster: "assets/img/ecaille.webp",
         alt: "Vidéo du produit"
       }
@@ -324,7 +324,7 @@ const PRODUCTS = [
     media: [
          {
         type: "video",
-        src: "assets/video/olivec.mp4",
+        src: "assets/video/olivec.mov",
         poster: "assets/img/olivec.webp",
         alt: "Vidéo du produit"
       }
@@ -350,7 +350,7 @@ const PRODUCTS = [
     media: [
          {
         type: "video",
-        src: "assets/video/taz.mp4",
+        src: "assets/video/taz.mov",
         poster: "assets/img/taz.webp",
         alt: "Vidéo du produit"
       }
@@ -376,7 +376,7 @@ const PRODUCTS = [
     media: [
          {
         type: "video",
-        src: "assets/video/k.mp4",
+        src: "assets/video/kv.mov",
         poster: "assets/img/k.webp",
         alt: "Vidéo du produit"
       }
@@ -403,7 +403,7 @@ const PRODUCTS = [
     media: [
          {
         type: "video",
-        src: "assets/video/3m.mp4",
+        src: "assets/video/3mv.mov",
         poster: "assets/img/3m.webp",
         alt: "Vidéo du produit"
       }
@@ -429,7 +429,7 @@ const PRODUCTS = [
     media: [
          {
         type: "video",
-        src: "assets/video/md.mp4",
+        src: "assets/video/mdv.mov",
         poster: "assets/img/md.webp",
         alt: "Vidéo du produit"
       }
