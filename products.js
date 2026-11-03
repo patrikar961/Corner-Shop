@@ -135,7 +135,7 @@ const PRODUCTS = [
          {
         type: "video",
         src: "assets/video/dryv.mov",
-        poster: "assets/img/ddc.JPEG",
+        poster: "assets/img/ddc.webp",
         alt: "Vidéo du produit"
       }
 
@@ -191,7 +191,7 @@ const PRODUCTS = [
          {
         type: "video",
         src: "assets/video/plasmav.mp4",
-        poster: "assets/img/ppc.JPEG",
+        poster: "assets/img/ppc.webp",
         alt: "Vidéo du produit"
       }
 
@@ -218,7 +218,7 @@ const PRODUCTS = [
          {
         type: "video",
         src: "assets/video/amnesiav.mov",
-        poster: "assets/img/ac.png",
+        poster: "assets/img/ac.webp",
         alt: "Vidéo du produit"
       }
 
@@ -245,7 +245,7 @@ const PRODUCTS = [
          {
         type: "video",
         src: "assets/video/calisv.mov",
-        poster: "assets/img/csc.png",
+        poster: "assets/img/csc.webp",
         alt: "Vidéo du produit"
       }
 
@@ -271,7 +271,7 @@ const PRODUCTS = [
          {
         type: "video",
         src: "assets/video/Caliuv.mov",
-        poster: "assets/img/cuc.png",
+        poster: "assets/img/cuc.webp",
         alt: "Vidéo du produit"
       }
 
@@ -299,7 +299,7 @@ const PRODUCTS = [
          {
         type: "video",
         src: "assets/video/ecaillev.mov",
-        poster: "assets/img/ec.png",
+        poster: "assets/img/ec.webp",
         alt: "Vidéo du produit"
       }
 
@@ -325,7 +325,7 @@ const PRODUCTS = [
          {
         type: "video",
         src: "assets/video/olivecv.mov",
-        poster: "assets/img/occ.PNG",
+        poster: "assets/img/occ.webp",
         alt: "Vidéo du produit"
       }
 
@@ -351,7 +351,7 @@ const PRODUCTS = [
          {
         type: "video",
         src: "assets/video/tazv.mov",
-        poster: "assets/img/tc.png",
+        poster: "assets/img/tc.webp",
         alt: "Vidéo du produit"
       }
 
@@ -377,7 +377,7 @@ const PRODUCTS = [
          {
         type: "video",
         src: "assets/video/kv.mov",
-        poster: "assets/img/kc.png",
+        poster: "assets/img/kc.webp",
         alt: "Vidéo du produit"
       }
 
@@ -404,7 +404,7 @@ const PRODUCTS = [
      {
         type: "video",
         src: "assets/video/mdv.mov",
-        poster: "assets/img/3mc.png",
+        poster: "assets/img/3mc.webp",
         alt: "Vidéo du produit"
      }
 
@@ -430,7 +430,7 @@ const PRODUCTS = [
          {
         type: "video",
         src: "assets/video/mdv.mov",
-        poster: "assets/img/mdc.png",
+        poster: "assets/img/mdc.webp",
         alt: "Vidéo du produit"
       }
 
