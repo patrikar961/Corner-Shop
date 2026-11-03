@@ -350,7 +350,7 @@ const PRODUCTS = [
     media: [
          {
         type: "video",
-        src: "assets/video/taz.mov",
+        src: "assets/video/tazv.mov",
         poster: "assets/img/taz.webp",
         alt: "Vidéo du produit"
       }
