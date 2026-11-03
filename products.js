@@ -62,11 +62,6 @@ const PRODUCTS = [
     cover: "assets/img/moussec.webp",              /* vignette du catalogue : format portrait 3/4 (facultatif) */
     desc: "Très bon produit cultivé dans les montagnes du Rif, sa qualité et son prix réunissent un bon compromis 🤝✅",
     media: [
-        {
-        type: "image",
-        src: "assets/img/moussep-carte.PNG",
-        alt: "Blue Lobster - photo du produit"
-      },
       {
         type: "video",
         src: "assets/video/moussev.mp4",
