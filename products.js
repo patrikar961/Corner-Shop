@@ -126,7 +126,7 @@ const PRODUCTS = [
     id: 4,
     name: "Dry Sift - Underbranded 🥇",
     category: "🍫 Choco",
-    price: 200.,
+    price: 200,
     featured: 4,
     emoji: "🍫🇲🇦",
     desc: "Dry Sift no farm, prix et qualité au rendez-vous 🤝🇲🇦 .",
