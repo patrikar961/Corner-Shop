@@ -403,7 +403,7 @@ const PRODUCTS = [
     media: [
          {
         type: "video",
-        src: "assets/video/3mv.mov",
+        src: "assets/video/mdv.mov",
         poster: "assets/img/3m.webp",
         alt: "Vidéo du produit"
       }
