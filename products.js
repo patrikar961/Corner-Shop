@@ -173,7 +173,7 @@ const PRODUCTS = [
 
   {
     id: 7,
-    name: "Amnésia 🍀🇳🇱- White Truffle",
+    name: "Amnésia 🇳🇱",
     category: "🍀 Weed",
     price: 70,
     featured: 7,
@@ -192,20 +192,40 @@ const PRODUCTS = [
 
   {
     id: 8,
-    name: "Cali Spain 🍀🇪🇸- White Truffle",
+    name: "Cali Spain 🇪🇸 - Zkittles 🍭",
     category: "🍀 Weed",
-    price: 70,
-    featured: 7,
-    emoji: "🍀🇳🇱",
-    desc: "Amnésia Haze, Gout et effets assurés ✅.",
+    price: 80,
+    featured: 8,
+    emoji: "🍀🇪🇸",
+    desc: "Trés bon produit, gout et effets garantis ✅.",
     media: [],
     variants: [
-      { name: "10G", price: 70 },
-      { name: "20G", price: 130 },
-      { name: "30G", price: 150 },
-      { name: "50G", price: 280 }
+      { name: "10G", price: 80 },
+      { name: "20G", price: 150 },
+      { name: "30G", price: 200 },
+      { name: "50G", price: 300 }
     ]
    },
+
+   /* PRODUIT 9 — CALI SPAIN */
+
+  {
+    id: 8,
+    name: "Cali Spain 🇪🇸 - Zkittles 🍭",
+    category: "🍀 Weed",
+    price: 80,
+    featured: 8,
+    emoji: "🍀🇪🇸",
+    desc: "Trés bon produit, gout et effets garantis ✅.",
+    media: [],
+    variants: [
+      { name: "10G", price: 80 },
+      { name: "20G", price: 150 },
+      { name: "30G", price: 200 },
+      { name: "50G", price: 300 }
+    ]
+   },
+   
    
 
 ];
