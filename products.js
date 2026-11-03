@@ -154,7 +154,7 @@ const PRODUCTS = [
 
   {
     id: 6,
-    name: "Plasma Static - White Truffle",
+    name: "Plasma Static - White Truffle 🍯",
     category: "🍫 Choco",
     price: 100,
     featured: 6,
