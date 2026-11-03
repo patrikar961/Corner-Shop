@@ -9,11 +9,7 @@
   const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
 
   const fmt = n =>
-    Number(n || 0).toLocaleString("fr-FR", {
-      minimumFractionDigits: 2,
-      maximumFractionDigits: 2
-    }) + " " + SHOP.currency;
-
+  Math.round(Number(n || 0)).toLocaleString("fr-FR") + "€";
   const esc = s =>
     String(s ?? "").replace(/[&<>"']/g, c => ({
       "&": "&amp;",
