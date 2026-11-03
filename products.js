@@ -54,7 +54,7 @@ const PRODUCTS = [
 
   {
     id: 1,
-    name: "Blue Lobster-Mousse premium 🧽🇲🇦",
+    name: "Blue Lobster - Mousse premium 🧽🇲🇦",
     category: "🧽 Mousse",
     price: 50,
     featured: 3,
@@ -94,7 +94,7 @@ const PRODUCTS = [
 
   {
     id: 2,
-    name: "Olive 3x filtré 🫒🍫 - Underbranded",
+    name: "Olive - 3x filtré 🫒🍫 - Underbranded",
     category: "🍫 Choco",
     price: 70,
     featured: 2,
@@ -152,7 +152,7 @@ const PRODUCTS = [
 
   {
     id: 5,
-    name: "VVS 3x filtré 🏆",
+    name: "VVS - 3x filtré 🏆",
     category: "🍫 Choco",
     price: 80,
     featured: 5,
