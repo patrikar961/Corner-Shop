@@ -304,10 +304,10 @@ const PRODUCTS = [
   {
     id: 13,
     name: "3M 🇳🇱",
-    category: "Synthése",
+    category: "🤯 Synthése",
     price: 60,
     featured: 14,
-    emoji: "❄️🇨🇴",
+    emoji: "🇳🇱",
     desc: "Trés bon produit, gout et effets garantis ✅.",
     media: [],
     variants: [
@@ -317,6 +317,24 @@ const PRODUCTS = [
       { name: "10G", price: 140 }
     ]
    },
+   /* PRODUIT 14 — MD */
+
+  {
+    id: 14,
+    name: "MD 🇳🇱",
+    category: "🤯 Synthése",
+    price: 60,
+    featured: 15,
+    emoji: "🇳🇱",
+    desc: "Trés bon produit, gout et effets garantis ✅.",
+    media: [],
+    variants: [
+      { name: "1G", price: 30 },
+      { name: "3G", price: 70 },
+      { name: "5G", price: 100 },
+      { name: "10G", price: 140 }
+    ]
+   }
    
 
 ];
