@@ -25,8 +25,8 @@ const VIDEO = {
   type: "file",            /* "file" | "youtube" | "vimeo" */
   src: "assets/video.mp4",
   fallback: "",
-  poster: "",
-  title: "Découvrez notre atelier"
+  poster: "assets/logo1.png",
+  title: "Découvrez notre plug"
 };
 
 
