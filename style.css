@@ -1,7 +1,8 @@
+
 /* =========================================================
    STYLE.CSS — Boutique Corner69
-   Même design, même palette : les couleurs viennent de theme.js
-   (variables --bg, --surface, --primary, --secondary, --accent…)
+   Version corrigée : catalogue et affichage mobile
+   Le carrousel est conservé sans modification.
    ========================================================= */
 
 :root{
@@ -152,31 +153,29 @@ select option{background:var(--surface);color:var(--text)}
 
 /* ---------------- Grille catalogue ---------------- */
 
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.5rem}
-.product{display:flex;flex-direction:column;gap:.5rem;transition:transform .25s,box-shadow .25s}
-.product:hover{transform:translateY(-8px) rotate(-.5deg);box-shadow:0 20px 45px var(--glow)}
-
-/* Vignettes du catalogue : hauteur fixe, largeur imposée par la grille.
-   La photo entière reste visible ; l'écart éventuel est comblé par un fond
-   flouté de la photo elle-même, jamais par du noir. */
-.product .thumb{
-  width:100%;
-  aspect-ratio:4/3;
-  max-height:280px;
-  height:auto;
-  border-radius:var(--radius-sm);
-  display:grid;place-items:center;overflow:hidden;font-size:4rem;
-  background:transparent;      /* le fond flouté visible, plus d'aplat opaque */
-  position:relative;
-  isolation:isolate;
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+  gap:1.5rem;
 }
-/* Vignettes catalogue : cadrage uniforme */
+.product{
+  display:flex;
+  flex-direction:column;
+  gap:.5rem;
+  transition:transform .25s,box-shadow .25s;
+}
+.product:hover{
+  transform:translateY(-8px) rotate(-.5deg);
+  box-shadow:0 20px 45px var(--glow);
+}
+
+/* Vignettes catalogue : cadre uniforme */
 
 .product .thumb{
   width:100%;
   height:180px;
-  aspect-ratio:auto;
-  max-height:none;
+  min-height:180px;
+  max-height:180px;
   border-radius:var(--radius-sm);
   display:flex;
   align-items:center;
@@ -186,6 +185,8 @@ select option{background:var(--surface);color:var(--text)}
   position:relative;
   isolation:isolate;
 }
+
+/* Photos et vidéos entièrement visibles */
 
 .product .thumb img,
 .product .thumb video{
@@ -198,19 +199,27 @@ select option{background:var(--surface);color:var(--text)}
   z-index:1;
 }
 
-/* Variante portrait : la vignette suit la forme de la photo */
-.product .thumb.is-portrait{aspect-ratio:1/1}
-/* Le fond flouté se place à l'intérieur du cadre, sous la photo :
-   le carrousel fonctionne ainsi, le catalogue doit faire pareil. */
+/* Variante portrait */
+
+.product .thumb.is-portrait{
+  aspect-ratio:1/1;
+}
+
+/* Fond flouté derrière la photo */
+
 .product .thumb::before{
-  content:"";position:absolute;inset:-15%;
+  content:"";
+  position:absolute;
+  inset:-15%;
   z-index:0;
   background-image:var(--thumb-bg,none);
-  background-size:cover;background-position:center;
+  background-size:cover;
+  background-position:center;
   filter:blur(24px) brightness(.5) saturate(1.25);
   opacity:.9;
   pointer-events:none;
 }
+
 .thumb-emoji{font-size:4rem;line-height:1}
 
 .product .cat{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);font-weight:700}
@@ -302,7 +311,8 @@ footer{text-align:center;padding:2rem;color:var(--muted)}
   50%{box-shadow:0 0 40px var(--glow-2),inset 0 0 26px color-mix(in srgb,var(--secondary) 30%,transparent)}
 }
 
-/* Boutons réseaux : couleur d'origine (bleu Telegram, vert WhatsApp), rendu néon */
+/* Boutons réseaux */
+
 .btn-brand{
   border:1px solid color-mix(in srgb, currentColor 45%, transparent);
   text-shadow:0 0 10px rgba(255,255,255,.45);
@@ -321,6 +331,7 @@ footer{text-align:center;padding:2rem;color:var(--muted)}
 .btn-brand.wa:hover{box-shadow:0 12px 38px rgba(37,211,102,.75)}
 
 /* ---------------- Fiche produit : carrousel ---------------- */
+/* Bloc conservé tel que fourni */
 
 .product-dialog{max-height:92vh;overflow-y:auto;width:min(680px,94vw)}
 .product-dialog .drawer-head{margin-bottom:1rem}
@@ -332,7 +343,6 @@ footer{text-align:center;padding:2rem;color:var(--muted)}
   border-radius:18px;overflow:hidden;
   box-shadow:0 0 0 2px var(--border),0 18px 40px color-mix(in srgb,var(--primary) 22%,transparent);
   touch-action:pan-y;
-  /* le cadre prend la hauteur exacte du média : aucune bande noire */
   height:clamp(200px,62vw,380px);
   transition:height .2s ease;
 }
@@ -340,14 +350,11 @@ footer{text-align:center;padding:2rem;color:var(--muted)}
 .carousel-slide{width:100%;height:100%;display:flex;align-items:center;justify-content:center;animation:fadeIn .25s ease}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 
-/* Le média remplit le cadre ; quand son format diffère, il est complété par
-   la même image agrandie et floutée au lieu de bandes noires. */
 .carousel-slide img,.carousel-slide video,.carousel-slide iframe{
   width:100%;height:100%;object-fit:contain;object-position:center;
   display:block;border:0;background:transparent;
   position:relative;z-index:1;
 }
-/* halo de remplissage : reprend la photo, agrandie et floutée */
 .carousel-slide{
   position:relative;overflow:hidden;
   background-color:color-mix(in srgb,#000 70%,var(--surface));
@@ -359,14 +366,13 @@ footer{text-align:center;padding:2rem;color:var(--muted)}
   filter:blur(28px) brightness(.55) saturate(1.2);
   transform:scale(1.15);
   opacity:.9;
-  pointer-events:none;   /* le fond ne doit jamais capter les clics */
+  pointer-events:none;
 }
 
-/* Vidéo verticale ou format inhabituel : l'image reste entière et le cadre se resserre */
 .carousel.is-portrait{height:clamp(280px,80vw,460px)}
 .carousel-nav{
   position:absolute;top:50%;transform:translateY(-50%);
-  z-index:5;                /* toujours au-dessus du fond et du média */
+  z-index:5;
   width:42px;height:42px;border-radius:50%;border:0;cursor:pointer;
   background:color-mix(in srgb,#000 55%,transparent);color:#fff;
   font-size:1.6rem;line-height:1;display:grid;place-items:center;
@@ -385,9 +391,10 @@ footer{text-align:center;padding:2rem;color:var(--muted)}
   display:flex;flex-direction:column;align-items:center;gap:.8rem;
   color:var(--muted);text-align:center;padding:1rem;
 }
-.ph-emoji{font-size:3.2rem;line-height:1}
 
 /* Miniatures du carrousel */
+
+.ph-emoji{font-size:3.2rem;line-height:1}
 .detail-thumbs{
   display:flex;flex-wrap:nowrap;gap:.6rem;
   overflow-x:auto;overflow-y:hidden;
@@ -463,7 +470,14 @@ footer{text-align:center;padding:2rem;color:var(--muted)}
 @media (max-width:600px){
   .contact-grid{grid-template-columns:1fr}
   .product-dialog{padding:1rem;width:96vw}
-  .product .thumb{height:auto}
+
+  /* Correction : hauteur fixe aussi sur iPhone */
+  .product .thumb{
+    height:180px;
+    min-height:180px;
+    max-height:180px;
+  }
+
   .carousel{height:clamp(200px,60vw,320px)}
   .carousel.is-portrait{height:clamp(260px,74vw,400px)}
   .vp-controls{gap:.25rem;padding:.45rem}
