@@ -456,14 +456,14 @@ const SAMPLE_REVIEWS = [
     name: "MarionD",
     rating: 4,
     text: "Super, merci !",
-    sample: true
+    sample: 
   },
 
   {
     name: "juju693",
     rating: 5,
     text: "Contact et livreur au top bravo 👏",
-    sample: true
+    sample: 
   }
 
 ];
