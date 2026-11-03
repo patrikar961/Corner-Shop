@@ -25,7 +25,7 @@ const VIDEO = {
   type: "file",            /* "file" | "youtube" | "vimeo" */
   src: "assets/video.mp4",
   fallback: "",
-  poster: "assets/logo1.png",
+  poster: "",
   title: "Découvrez notre plug"
 };
 
