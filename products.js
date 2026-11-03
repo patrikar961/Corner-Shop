@@ -7,7 +7,7 @@
 /* INFORMATIONS DE LA BOUTIQUE */
 
 const SHOP = {
-  name: "CORNER69 🛍️"
+  name: "CORNER69 🛍️",
   telegram: "https://t.me/@Sully9647",
   whatsapp: "",            /* ex. "33612345678" : indicatif pays, sans +, sans espaces */
   currency: "EUR"
@@ -401,12 +401,12 @@ const PRODUCTS = [
     emoji: "🇳🇱",
     desc: "Trés bon produit, gout et effets garantis ✅.",
     media: [
-         {
+     {
         type: "video",
         src: "assets/video/mdv.mov",
         poster: "assets/img/3m.webp",
         alt: "Vidéo du produit"
- }
+     }
 
     ],
     variants: [
