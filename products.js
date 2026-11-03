@@ -207,22 +207,22 @@ const PRODUCTS = [
     ]
    },
 
-   /* PRODUIT 9 — CALI SPAIN */
+   /* PRODUIT 10 — ÉCAILLE */
 
   {
-    id: 8,
-    name: "Cali Spain 🇪🇸 - Zkittles 🍭",
-    category: "🍀 Weed",
-    price: 80,
-    featured: 8,
-    emoji: "🍀🇪🇸",
+    id: 9,
+    name: "Écaille 🇨🇴",
+    category: "❄️ Neige",
+    price: 60,
+    featured: 9,
+    emoji: "❄️🇨🇴",
     desc: "Trés bon produit, gout et effets garantis ✅.",
     media: [],
     variants: [
-      { name: "10G", price: 80 },
-      { name: "20G", price: 150 },
-      { name: "30G", price: 200 },
-      { name: "50G", price: 300 }
+      { name: "1G", price: 60 },
+      { name: "3G", price: 160 },
+      { name: "5G + 1G Offert", price: 300 },
+      { name: "10G + 2G Offerts", price: 600 }
     ]
    },
    
