@@ -170,10 +170,34 @@ select option{background:var(--surface);color:var(--text)}
   position:relative;
   isolation:isolate;
 }
-.product .thumb img,.product .thumb video{
-  width:100%;height:100%;object-fit:contain;display:block;
-  position:relative;z-index:1;
+/* Vignettes catalogue : cadrage uniforme */
+
+.product .thumb{
+  width:100%;
+  height:180px;
+  aspect-ratio:auto;
+  max-height:none;
+  border-radius:var(--radius-sm);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  background:transparent;
+  position:relative;
+  isolation:isolate;
 }
+
+.product .thumb img,
+.product .thumb video{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center;
+  display:block;
+  position:relative;
+  z-index:1;
+}
+
 /* Variante portrait : la vignette suit la forme de la photo */
 .product .thumb.is-portrait{aspect-ratio:1/1}
 /* Le fond flouté se place à l'intérieur du cadre, sous la photo :
