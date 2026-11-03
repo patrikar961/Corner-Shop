@@ -206,6 +206,25 @@ const PRODUCTS = [
       { name: "50G", price: 300 }
     ]
    },
+   /* PRODUIT 9 — CALI USA */
+
+  {
+    id: 9,
+    name: "Cali USA 🇺🇸 - Blue Magic",
+    category: "🍀 Weed",
+    price: 80,
+    featured: 9,
+    emoji: "🍀🇺🇸",
+    desc: "Trés bon produit importé des Etats-unis, gout et effets garantis ✅.",
+    media: [],
+    variants: [
+      { name: "5G", price: 80 },
+      { name: "10G", price: 150 },
+      { name: "25G", price: 250 },
+      { name: "50G", price: 500 }
+    ]
+   },
+   
 
    /* PRODUIT 10 — ÉCAILLE */
 
