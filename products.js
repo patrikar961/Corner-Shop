@@ -9,7 +9,7 @@
 const SHOP = {
   name: "CORNER69 🛍️",
   telegram: "https://t.me/@Sully9647",
-  whatsapp: "",            /* ex. "33612345678" : indicatif pays, sans +, sans espaces */
+  whatsapp: "33637104035",            /* ex. "33612345678" : indicatif pays, sans +, sans espaces */
   currency: "EUR"
 };
 
