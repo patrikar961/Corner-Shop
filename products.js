@@ -97,7 +97,7 @@ const PRODUCTS = [
     name: "Olive 3x filtré 🫒🍫 - Underbranded",
     category: "🍫 Choco",
     price: 70,
-    featured: 5,
+    featured: 2,
     emoji: "🍫",
     desc: "Olive 3x filtré no farm, prix et qualité au rendez-vous 🤝🇲🇦.",
     media: [],
@@ -118,7 +118,7 @@ const PRODUCTS = [
     name: "Dry Sift - Underbranded",
     category: "🍫 Choco",
     price: 200.,
-    featured: 2,
+    featured: 4,
     emoji: "🍫🇲🇦",
     desc: "Dry Sift no farm, prix et qualité au rendez-vous 🤝🇲🇦 .",
     media: [],
@@ -137,7 +137,7 @@ const PRODUCTS = [
     name: "VVS 3x filtré",
     category: "🍫 Choco",
     price: 80,
-    featured: 1,
+    featured: 5,
     emoji: "🤯🇲🇦",
     desc: "3x filtré de la celebre farm VVS, produit de qualité premium 🏆.",
     media: [],
@@ -229,11 +229,11 @@ const PRODUCTS = [
    /* PRODUIT 10 — ÉCAILLE */
 
   {
-    id: 9,
+    id: 10,
     name: "Écaille 🇨🇴",
     category: "❄️ Neige",
     price: 60,
-    featured: 9,
+    featured: 10,
     emoji: "❄️🇨🇴",
     desc: "Trés bon produit, gout et effets garantis ✅.",
     media: [],
@@ -244,7 +244,79 @@ const PRODUCTS = [
       { name: "10G + 2G Offerts", price: 600 }
     ]
    },
-   
+     /* PRODUIT 11 — OLIVE */
+
+  {
+    id: 11,
+    name: "Olive 🇸🇷",
+    category: "❄️ Neige",
+    price: 60,
+    featured: 11,
+    emoji: "❄️🇸🇷",
+    desc: "Trés bon produit, gout et effets garantis ✅.",
+    media: [],
+    variants: [
+      { name: "1G", price: 60 },
+      { name: "3G", price: 160 },
+      { name: "5G + 1G Offert", price: 300 },
+      { name: "10G + 2G Offerts", price: 600 }
+    ]
+   },
+     /* PRODUIT 12 - TAZ */
+
+  {
+    id: 12,
+    name: "Taz 🍬",
+    category: "🤯 Synthèse",
+    price: 50,
+    featured: 12,
+    emoji: "🍬🇳🇱",
+    desc: "Taz 320Mg ✅.",
+    media: [],
+    variants: [
+      { name: "10", price: 50 },
+      { name: "20", price: 70 },
+      { name: "50", price: 130 },
+      { name: "100", price: 220 }
+    ]
+   },
+     /* PRODUIT 3 — KETAMINE */
+
+  {
+    id: 3,
+    name: "Kétamine",
+    category: "🤯 Synthèse",
+    price: 30,
+    featured: 13,
+    emoji: "🤯🇳🇱",
+    desc: "Trés bon produit, gout et effets garantis ✅.",
+    media: [],
+    variants: [
+      { name: "1G", price: 30 },
+      { name: "3G", price: 70 },
+      { name: "5G", price: 100 },
+      { name: "10G", price: 140 }
+    ]
+   },
+    
+   /* PRODUIT 14 — 3M */
+
+  {
+    id: 13,
+    name: "3M 🇳🇱",
+    category: "Synthése",
+    price: 60,
+    featured: 14,
+    emoji: "❄️🇨🇴",
+    desc: "Trés bon produit, gout et effets garantis ✅.",
+    media: [],
+    variants: [
+      { name: "1G", price: 30 },
+      { name: "3G", price: 70 },
+      { name: "5G", price: 100 },
+      { name: "10G", price: 140 }
+    ]
+   },
    
 
 ];
