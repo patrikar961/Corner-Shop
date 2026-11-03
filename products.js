@@ -115,16 +115,17 @@ const PRODUCTS = [
 
   {
     id: 4,
-    name: "Carnet Prisme",
-    category: "Papeterie",
-    price: 12.90,
+    name: "Dry Sift - Underbranded",
+    category: "🍫 Choco",
+    price: 200.,
     featured: 2,
-    emoji: "📓",
-    desc: "Papier 120 g, couverture irisée.",
+    emoji: "🍫🇲🇦",
+    desc: "Dry Sift no farm, prix et qualité au rendez-vous 🤝🇲🇦 .",
     media: [],
     variants: [
-      { name: "A5", price: null },
-      { name: "A4", price: 16.90 }
+      { name: "50G", price: 200 },
+      { name: "100G", price: 350 },
+      { name: "1kG", price: 2700 }
     ]
   },
 
