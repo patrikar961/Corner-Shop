@@ -35,10 +35,10 @@ const VIDEO = {
 
 const CATEGORIES = [
   "🧽 Mousse",
-  "Résines",
-  "Décoration",
-  "Accessoires",
-  "Papeterie"
+  "🍫 Choco",
+  "🍀 Weed",
+  "❄️ Neige",
+  "🤯 Synthèse"
 ];
 
 
@@ -111,7 +111,7 @@ const PRODUCTS = [
   },
 
 
-  /* PRODUIT 4 — CARNET */
+  /* PRODUIT 4 — DRY SIFT */
 
   {
     id: 4,
@@ -130,38 +130,42 @@ const PRODUCTS = [
   },
 
 
-  /* PRODUIT 5 — BRACELET */
+  /* PRODUIT 5 — VVS 3X FILTRÉ */
 
   {
     id: 5,
-    name: "Bracelet Lumière",
-    category: "Accessoires",
-    price: 29,
+    name: "VVS 3x filtré",
+    category: "🍫 Choco",
+    price: 80,
     featured: 1,
-    emoji: "📿",
-    desc: "Perles de verre colorées.",
+    emoji: "🤯🇲🇦",
+    desc: "3x filtré de la celebre farm VVS, produit de qualité premium 🤯🍫.",
     media: [],
     variants: [
-      { name: "Réglable", price: null },
-      { name: "Coffret cadeau", price: 34 }
+      { name: "10G", price: 80 },
+      { name: "20G", price: 140 },
+      { name: "30G", price: 200 },
+      { name: "50G", price: 340 }
     ]
   },
 
 
-  /* PRODUIT 6 — AFFICHE */
+  /* PRODUIT 6 — PLASMA STATIC */
 
   {
     id: 6,
-    name: "Affiche Cosmos",
-    category: "Papeterie",
-    price: 24,
+    name: "Plasma Static - White Truffle",
+    category: "🍫 Choco",
+    price: 100,
     featured: 6,
-    emoji: "🖼️",
-    desc: "Impression A3 haute qualité.",
+    emoji: "🍯",
+    desc: "Plasma Static - White Truffle🇲🇦,  produit premium de haute qualité du vrai miel 🍯🤯.",
     media: [],
     variants: [
-      { name: "A4", price: null },
-      { name: "A3", price: 32 }
+       { name: "5G", price: 100 },
+      { name: "10G", price: 180 },
+      { name: "25G", price: 300 },
+      { name: "50G", price: 550 }
     ]
   }
 
