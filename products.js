@@ -104,7 +104,7 @@ const PRODUCTS = [
 
    {
         type: "video",
-        src: "assets/video/olivev.MOV",
+        src: "assets/video/olive.mp4",
         poster: "assets/img/olive.webp",
         alt: "Vidéo du produit"
    }
