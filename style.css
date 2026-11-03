@@ -476,4 +476,4 @@ footer{text-align:center;padding:2rem;color:var(--muted)}
 
 @media (prefers-reduced-motion:reduce){
   *{animation:none !important;transition:none !important}
-} 
+}
