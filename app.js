@@ -606,7 +606,7 @@
     cart[key] = (cart[key] || 0) + qty;
     save();
     renderCart();
-    toast("Ajouté au panier ✨");
+    toast("Ajouté au panier ✅");
   }
 
   $("#detailAdd").addEventListener("click", () => {
@@ -756,7 +756,7 @@
           <div class="card review">
             <div class="review-head">
               <strong>${esc(r.name)}</strong>
-              <span class="tag">${r.sample ? "Exemple" : "Cet appareil"}</span>
+              <span class="tag">${""}</span>
             </div>
             <div class="stars" aria-label="${rating} sur 5">
               ${"★".repeat(rating)}${"☆".repeat(5 - rating)}
