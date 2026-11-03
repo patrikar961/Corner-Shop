@@ -324,7 +324,7 @@ const PRODUCTS = [
     media: [
          {
         type: "video",
-        src: "assets/video/olivec.mov",
+        src: "assets/video/olivecv.mov",
         poster: "assets/img/olivec.webp",
         alt: "Vidéo du produit"
       }
