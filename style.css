@@ -169,69 +169,54 @@ select option{background:var(--surface);color:var(--text)}
   box-shadow:0 20px 45px var(--glow);
 }
 
-/* Vignettes catalogue : cadre uniforme */
-
-.product .thumb{
-  width:100%;
-  height:180px;
-  min-height:180px;
-  max-height:180px;
-  border-radius:var(--radius-sm);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  overflow:hidden;
-  background:transparent;
-  position:relative;
-  isolation:isolate;
+/* Vignettes du catalogue : dimensions uniformes */
+.product .thumb {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  max-height: none;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-size: 4rem;
+  background: transparent;
+  position: relative;
+  isolation: isolate;
 }
 
-/* Photos et vidéos entièrement visibles */
-
+/* Images et vidéos : proportions originales conservées */
 .product .thumb img,
-.product .thumb video{
-  width:100%;
-  height:100%;
-  object-fit:contain;
-  object-position:center;
-  display:block;
-  position:relative;
-  z-index:1;
+.product .thumb video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  position: relative;
+  z-index: 1;
 }
 
-/* Variante portrait */
-
-.product .thumb.is-portrait{
-  aspect-ratio:1/1;
+/* Format uniforme pour les produits portrait */
+.product .thumb.is-portrait {
+  aspect-ratio: 1 / 1;
+  height: auto;
 }
 
-/* Fond flouté derrière la photo */
-
-.product .thumb::before{
-  content:"";
-  position:absolute;
-  inset:-15%;
-  z-index:0;
-  background-image:var(--thumb-bg,none);
-  background-size:cover;
-  background-position:center;
-  filter:blur(24px) brightness(.5) saturate(1.25);
-  opacity:.9;
-  pointer-events:none;
+/* Fond flouté */
+.product .thumb::before {
+  content: "";
+  position: absolute;
+  inset: -15%;
+  z-index: 0;
+  background-image: var(--thumb-bg, none);
+  background-size: cover;
+  background-position: center;
+  filter: blur(24px) brightness(.5) saturate(1.25);
+  opacity: .9;
+  pointer-events: none;
 }
-
-.thumb-emoji{font-size:4rem;line-height:1}
-
-.product .cat{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);font-weight:700}
-.product h3{font-size:1.15rem;line-height:1.3}
-.product .price{font-size:1.4rem;font-weight:900;color:var(--secondary)}
-.product .btn{margin-top:auto}
-.product-open{
-  display:flex;flex-direction:column;gap:.5rem;text-align:left;
-  background:none;border:0;color:inherit;cursor:pointer;font:inherit;width:100%;padding:0;
-}
-.product-open:focus-visible{outline:none;box-shadow:var(--ring);border-radius:12px}
-
 /* ---------------- Avis ---------------- */
 
 .reviews{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem;margin:1.5rem 0}
@@ -473,10 +458,12 @@ footer{text-align:center;padding:2rem;color:var(--muted)}
 
   /* Correction : hauteur fixe aussi sur iPhone */
   .product .thumb{
-    height:180px;
-    min-height:180px;
-    max-height:180px;
-  }
+  width:100%;
+  aspect-ratio:1 / 1;
+  height:auto;
+  min-height:0;
+  max-height:none;
+}
 
   .carousel{height:clamp(200px,60vw,320px)}
   .carousel.is-portrait{height:clamp(260px,74vw,400px)}
