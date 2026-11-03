@@ -212,7 +212,7 @@
                 <p class="muted">${esc(p.desc)}</p>
               </button>
               <span class="price">
-                ${multi ? "Prix min" : ""}${fmt(minPrice(p))}
+                ${multi ? "🚘 Livraison à partir de" : ""}${fmt(minPrice(p))}
               </span>
               <button class="btn" data-detail="${p.id}" type="button">
                 ${multi ? "Fiche produit" : "Ajouter au panier"}
