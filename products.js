@@ -100,7 +100,16 @@ const PRODUCTS = [
     featured: 2,
     emoji: "🍫",
     desc: "Olive 3x filtré no farm, prix et qualité au rendez-vous 🤝🇲🇦.",
-    media: [],
+    media: [
+
+   {
+        type: "video",
+        src: "assets/video/olivev.mp4",
+        poster: "assets/img/olive.webp",
+        alt: "Vidéo du produit"
+   }
+
+    ],
     variants: [
       { name: "12G", price: 50 },
       { name: "20G", price: 120 },
@@ -121,7 +130,16 @@ const PRODUCTS = [
     featured: 4,
     emoji: "🍫🇲🇦",
     desc: "Dry Sift no farm, prix et qualité au rendez-vous 🤝🇲🇦 .",
-    media: [],
+    media: [
+
+         {
+        type: "video",
+        src: "assets/video/dry.mp4",
+        poster: "assets/img/dry.webp",
+        alt: "Vidéo du produit"
+      }
+
+    ],
     variants: [
       { name: "50G", price: 200 },
       { name: "100G", price: 350 },
@@ -140,7 +158,16 @@ const PRODUCTS = [
     featured: 5,
     emoji: "🇲🇦",
     desc: "3x filtré de la celebre farm VVS, produit de qualité premium 🤯.",
-    media: [],
+    media: [
+
+       {
+        type: "video",
+        src: "assets/video/vvs.mp4",
+        poster: "assets/img/vvs.webp",
+        alt: "Vidéo du produit"
+      }
+
+    ],
     variants: [
       { name: "10G", price: 80 },
       { name: "20G", price: 140 },
@@ -160,7 +187,15 @@ const PRODUCTS = [
     featured: 6,
     emoji: "🍯",
     desc: "Plasma Static - White Truffle,  produit premium de haute qualité du vrai miel 🍯.",
-    media: [],
+    media: [
+         {
+        type: "video",
+        src: "assets/video/plasmav.mp4",
+        poster: "assets/img/plasma.webp",
+        alt: "Vidéo du produit"
+      }
+
+    ],
     variants: [
        { name: "5G", price: 100 },
       { name: "10G", price: 180 },
@@ -179,7 +214,15 @@ const PRODUCTS = [
     featured: 7,
     emoji: "🇳🇱",
     desc: "Amnésia Haze, Gout et effets assurés ✅.",
-    media: [],
+    media: [
+         {
+        type: "video",
+        src: "assets/video/amnesia.mp4",
+        poster: "assets/img/amnesia.webp",
+        alt: "Vidéo du produit"
+      }
+
+    ],
     variants: [
       { name: "10G", price: 70 },
       { name: "20G", price: 130 },
@@ -198,7 +241,15 @@ const PRODUCTS = [
     featured: 8,
     emoji: "🇪🇸",
     desc: "Trés bon produit, gout et effets garantis ✅.",
-    media: [],
+    media: [
+         {
+        type: "video",
+        src: "assets/video/calis.mp4",
+        poster: "assets/img/calis.webp",
+        alt: "Vidéo du produit"
+      }
+
+    ],
     variants: [
       { name: "10G", price: 80 },
       { name: "20G", price: 150 },
@@ -216,7 +267,15 @@ const PRODUCTS = [
     featured: 9,
     emoji: "🇺🇸",
     desc: "Trés bon produit importé des Etats-unis, gout et effets garantis ✅.",
-    media: [],
+    media: [
+         {
+        type: "video",
+        src: "assets/video/caliu.mp4",
+        poster: "assets/img/caliu.webp",
+        alt: "Vidéo du produit"
+      }
+
+    ],
     variants: [
       { name: "5G", price: 80 },
       { name: "10G", price: 150 },
@@ -236,7 +295,15 @@ const PRODUCTS = [
     featured: 10,
     emoji: "❄️🇨🇴",
     desc: "Trés bon produit, gout et effets garantis ✅.",
-    media: [],
+    media: [
+         {
+        type: "video",
+        src: "assets/video/ecaillev",
+        poster: "assets/img/ecaille.webp",
+        alt: "Vidéo du produit"
+      }
+
+    ],
     variants: [
       { name: "1G", price: 60 },
       { name: "3G", price: 160 },
@@ -254,7 +321,15 @@ const PRODUCTS = [
     featured: 11,
     emoji: "❄️🇸🇷",
     desc: "Trés bon produit, gout et effets garantis ✅.",
-    media: [],
+    media: [
+         {
+        type: "video",
+        src: "assets/video/olivec.mp4",
+        poster: "assets/img/olivec.webp",
+        alt: "Vidéo du produit"
+      }
+
+    ],
     variants: [
       { name: "1G", price: 60 },
       { name: "3G", price: 160 },
@@ -272,7 +347,15 @@ const PRODUCTS = [
     featured: 12,
     emoji: "🍬🇳🇱",
     desc: "Taz 320Mg ✅.",
-    media: [],
+    media: [
+         {
+        type: "video",
+        src: "assets/video/taz.mp4",
+        poster: "assets/img/taz.webp",
+        alt: "Vidéo du produit"
+      }
+
+    ],
     variants: [
       { name: "10", price: 50 },
       { name: "20", price: 70 },
@@ -290,7 +373,15 @@ const PRODUCTS = [
     featured: 13,
     emoji: "🤯🇳🇱",
     desc: "Trés bon produit, gout et effets garantis ✅.",
-    media: [],
+    media: [
+         {
+        type: "video",
+        src: "assets/video/k.mp4",
+        poster: "assets/img/k.webp",
+        alt: "Vidéo du produit"
+      }
+
+    ],
     variants: [
       { name: "1G", price: 30 },
       { name: "3G", price: 70 },
@@ -309,7 +400,15 @@ const PRODUCTS = [
     featured: 14,
     emoji: "🇳🇱",
     desc: "Trés bon produit, gout et effets garantis ✅.",
-    media: [],
+    media: [
+         {
+        type: "video",
+        src: "assets/video/3m.mp4",
+        poster: "assets/img/3m.webp",
+        alt: "Vidéo du produit"
+      }
+
+    ],
     variants: [
       { name: "1G", price: 30 },
       { name: "3G", price: 70 },
@@ -327,7 +426,15 @@ const PRODUCTS = [
     featured: 15,
     emoji: "🇳🇱",
     desc: "Trés bon produit, gout et effets garantis ✅.",
-    media: [],
+    media: [
+         {
+        type: "video",
+        src: "assets/video/md.mp4",
+        poster: "assets/img/md.webp",
+        alt: "Vidéo du produit"
+      }
+
+    ],
     variants: [
       { name: "1G", price: 30 },
       { name: "3G", price: 70 },
