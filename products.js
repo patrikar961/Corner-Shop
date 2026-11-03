@@ -167,7 +167,46 @@ const PRODUCTS = [
       { name: "25G", price: 300 },
       { name: "50G", price: 550 }
     ]
-  }
+  },
+   
+   /* PRODUIT 7 — AMNÉSIA */
+
+  {
+    id: 7,
+    name: "Amnésia 🍀🇳🇱- White Truffle",
+    category: "🍀 Weed",
+    price: 70,
+    featured: 7,
+    emoji: "🍀🇳🇱",
+    desc: "Amnésia Haze, Gout et effets assurés ✅.",
+    media: [],
+    variants: [
+      { name: "10G", price: 70 },
+      { name: "20G", price: 130 },
+      { name: "30G", price: 150 },
+      { name: "50G", price: 280 }
+    ]
+   },
+   
+   /* PRODUIT 8 — CALI SPAIN */
+
+  {
+    id: 8,
+    name: "Cali Spain 🍀🇪🇸- White Truffle",
+    category: "🍀 Weed",
+    price: 70,
+    featured: 7,
+    emoji: "🍀🇳🇱",
+    desc: "Amnésia Haze, Gout et effets assurés ✅.",
+    media: [],
+    variants: [
+      { name: "10G", price: 70 },
+      { name: "20G", price: 130 },
+      { name: "30G", price: 150 },
+      { name: "50G", price: 280 }
+    ]
+   },
+   
 
 ];
 
