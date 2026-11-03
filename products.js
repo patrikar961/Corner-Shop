@@ -115,7 +115,7 @@ const PRODUCTS = [
 
   {
     id: 4,
-    name: "Dry Sift - Underbranded",
+    name: "Dry Sift - Underbranded 🥇",
     category: "🍫 Choco",
     price: 200.,
     featured: 4,
@@ -134,12 +134,12 @@ const PRODUCTS = [
 
   {
     id: 5,
-    name: "VVS 3x filtré",
+    name: "VVS 3x filtré 🏆",
     category: "🍫 Choco",
     price: 80,
     featured: 5,
-    emoji: "🤯🇲🇦",
-    desc: "3x filtré de la celebre farm VVS, produit de qualité premium 🏆.",
+    emoji: "🇲🇦",
+    desc: "3x filtré de la celebre farm VVS, produit de qualité premium 🤯.",
     media: [],
     variants: [
       { name: "10G", price: 80 },
@@ -177,7 +177,7 @@ const PRODUCTS = [
     category: "🍀 Weed",
     price: 70,
     featured: 7,
-    emoji: "🍀🇳🇱",
+    emoji: "🇳🇱",
     desc: "Amnésia Haze, Gout et effets assurés ✅.",
     media: [],
     variants: [
@@ -196,7 +196,7 @@ const PRODUCTS = [
     category: "🍀 Weed",
     price: 80,
     featured: 8,
-    emoji: "🍀🇪🇸",
+    emoji: "🇪🇸",
     desc: "Trés bon produit, gout et effets garantis ✅.",
     media: [],
     variants: [
@@ -214,7 +214,7 @@ const PRODUCTS = [
     category: "🍀 Weed",
     price: 80,
     featured: 9,
-    emoji: "🍀🇺🇸",
+    emoji: "🇺🇸",
     desc: "Trés bon produit importé des Etats-unis, gout et effets garantis ✅.",
     media: [],
     variants: [
