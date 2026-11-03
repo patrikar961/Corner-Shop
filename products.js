@@ -270,7 +270,7 @@ const PRODUCTS = [
     media: [
          {
         type: "video",
-        src: "assets/video/caliuv.mov",
+        src: "assets/video/Caliuv.mov",
         poster: "assets/img/caliu.webp",
         alt: "Vidéo du produit"
       }
