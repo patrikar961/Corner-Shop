@@ -453,16 +453,16 @@ const PRODUCTS = [
 const SAMPLE_REVIEWS = [
 
   {
-    name: "Exemple A",
-    rating: 5,
-    text: "Avis d'exemple — remplacez par un avis authentique.",
+    name: "MarionD",
+    rating: 4,
+    text: "Super, merci !",
     sample: true
   },
 
   {
-    name: "Exemple B",
-    rating: 4,
-    text: "Avis d'exemple — remplacez par un avis authentique.",
+    name: "juju693",
+    rating: 5,
+    text: "Contact et livreur au top bravo 👏",
     sample: true
   }
 
