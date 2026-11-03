@@ -421,7 +421,7 @@ const PRODUCTS = [
   {
     id: 14,
     name: "MD 🇳🇱",
-    category: "🤯 Syntèse",
+    category: "🤯 Synthèse",
     price: 60,
     featured: 15,
     emoji: "🇳🇱",
