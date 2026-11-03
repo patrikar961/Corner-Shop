@@ -406,7 +406,7 @@ const PRODUCTS = [
         src: "assets/video/mdv.mov",
         poster: "assets/img/3m.webp",
         alt: "Vidéo du produit"
-      }
+ }
 
     ],
     variants: [
