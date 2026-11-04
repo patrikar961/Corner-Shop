@@ -416,7 +416,7 @@
     const qty = Math.max(1, Math.min(99, parseInt($("#detailQty").value, 10) || 1));
 
     $("#detailPrice").innerHTML =
-      `${fmt(unit)} <small class="muted">· ${fmt(unit * qty)}</small>`;
+      `${fmt(unit)} <small class="muted">Total ${fmt(unit * qty)}</small>`;
   }
 
   function openProduct(id) {
